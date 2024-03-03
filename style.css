@@ -1,217 +1,298 @@
-:root{
-    --btn-color: #FF5400;
-    --btn-text-color: white;
+:root {
+  --btn-color: #ff5400;
+  --btn-text-color: white;
 }
 /* Header */
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.head_logo{
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
+.head_logo {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
-.head_logo img{
-    width: 48px;
-    height: 44px;
+.head_logo img {
+  width: 48px;
+  height: 44px;
 }
-.head_title{
-    color: var(--btn-color);
+.head_title {
+  color: var(--btn-color);
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-    list-style: none;
+nav ul {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  list-style: none;
 }
-nav ul li a{
-    text-decoration: none;
-    color: black;
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
-.resDevice{
-    display: none;
-    width: 20px;
-    position: relative;
+.resDevice {
+  display: none;
+  width: 20px;
+  position: relative;
 }
 /* Header end */
 /* Banner section  */
-.banner_background{
-    width: 100%;
-    height: 400px;
-    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.356);
-    background-blend-mode: multiply;
-    margin-bottom: 20px;
-    
-    
+.banner_background {
+  width: 100%;
+  height: 400px;
+  background-image: url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.356);
+  background-blend-mode: multiply;
+  margin-bottom: 20px;
 }
-.banner_title{
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
+.banner_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
 }
-.banner_title h1{
-    font-size: 40px;
-    margin:20px 0px 5px 0;
-    
+.banner_title h1 {
+  font-size: 40px;
+  margin: 20px 0px 5px 0;
 }
 /* select option */
 
-.selectOption{
-    position: absolute;
-    left:400px;
-    top: 50%;
-    display: flex;
-    column-gap: 10px;
-    background-color: rgba(128, 128, 128, 0.418);
-    padding: 10px 20px;
-    border-radius: 10px;
+.selectOption {
+  position: absolute;
+  left: 400px;
+  top: 50%;
+  display: flex;
+  column-gap: 10px;
+  background-color: rgba(128, 128, 128, 0.418);
+  padding: 10px 20px;
+  border-radius: 10px;
 }
-.selectText{
-    font-size: 15px;
-    padding: 10px 10px;
-    border-radius: 5px;
+.selectText {
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
-.selectText img{
-    width: 20px;
+.selectText img {
+  width: 20px;
 }
-.searchBtn{
-    display: flex;
-    column-gap: 5px;
-    align-items: center;
-    background-color:var(--btn-color);
-    border: none;
-    color: white;
+.searchBtn {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  background-color: var(--btn-color);
+  border: none;
+  color: white;
 }
 /* Banner section end */
 
 /* Popular tours */
-.popularToursSection{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 10px;
-    height: 500px;
-
+.popularToursSection {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+  height: 500px;
 }
-.left{
-    width: 40%;
-    line-height: 25px;
+.left {
+  width: 40%;
+  line-height: 25px;
+  height: 100%;
 }
-.left h2{
-    font-size: 30px;
-    font-weight: bold;
+.left h2 {
+  font-size: 30px;
+  font-weight: bold;
 }
 .left ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 15px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
 }
-.right{
-    width: 50%;
+.right {
+  width: 50%;
 }
-.right img{
-    width: 100%;
-    height: 100%;
+.right img {
+  width: 100%;
+  height: 100%;
 }
-.readMoreBtn{
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    font-size: 15px;
-    padding: 10px 10px;
-    border-radius: 5px;
-    border: none;
+.readMoreBtn {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
 }
-
+/* Chose destination */
+.choseDestination {
+  margin-top: 50px;
+}
+.destinationDetails {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.towImage {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+}
+.towImage img {
+  width: 100%;
+  height: 300px;
+}
+.imageDiv {
+  position: relative;
+}
+.destinationName {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  color: white;
+}
+/* 2nd line image */
+.threeImg {
+  display: grid;
+  grid-template-columns: 30% 50% 20%;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.threeImg img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.thirdLineImage {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 10px;
+  margin-top: 20px;
+}
+.thirdLineImage img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
 
 /* responsive */
-@media only screen and (max-width: 576px ) {
-    body {
-        /* header */
-        .head_logo img{
-            width: 40px;
-            height: 36px;
-        }
-        nav ul{
-            display: none;
-            
-        }
-        .banner_background{
-            height: 400px;
-            
-        }
-        .resDevice{
-            width: 20px;
-            display: block;
-        }
-        /* header end */
-        /* banner */
-        .banner_title{
-            width: 90%;
-            
-        }
-        .banner_title h1{
-            font-size: 40px;
-            
-        }
-        .selectOption{
-            position: absolute;
-            width: 50%;
-            left:20%;
-            top: 55%;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            row-gap: 10px;
-           
-        }
-        .searchBtn{
-            display: flex;
-            column-gap: 5px;
-            align-items: center;
-            justify-items: center;
-            background-color: #FF5400;
-          
-        }
-        .selectText{
-            display: inline-flex;
-           justify-content: center;
-        }
-        /* popular section */
-        .popularToursSection{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            column-gap: 10px;
-            height: 400px;
-        
-        }
-        .left{
-            width: 100%;
-            line-height: 25px;
-            margin-bottom: 20px;
-        }      
-        .right{
-            width: 100%;
-        }
-        .right img{
-            width: 100%;
-            height: 80%;
-        }
-        .readMoreBtn{
-            background-color: var(--btn-color);
-            
-        }
+@media only screen and (max-width: 576px) {
+  body {
+    /* header */
+    .head_logo img {
+      width: 40px;
+      height: 36px;
+    }
+    nav ul {
+      display: none;
+    }
+    .banner_background {
+      height: 400px;
+    }
+    .resDevice {
+      width: 20px;
+      display: block;
+    }
+    /* header end */
+    /* banner */
+    .banner_title {
+      width: 90%;
+    }
+    .banner_title h1 {
+      font-size: 40px;
+    }
+    .selectOption {
+      position: absolute;
+      width: 50%;
+      left: 20%;
+      top: 55%;
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      row-gap: 10px;
+    }
+    .searchBtn {
+      display: flex;
+      column-gap: 5px;
+      align-items: center;
+      justify-items: center;
+      background-color: #ff5400;
+    }
+    .selectText {
+      display: inline-flex;
+      justify-content: center;
+    }
+    /* popular section */
+    .popularToursSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      column-gap: 10px;
+      height: 400px;
+    }
+    .left {
+      width: 100%;
+      line-height: 25px;
+      margin-bottom: 20px;
+    }
+    .right {
+      width: 100%;
+    }
+    .right img {
+      width: 100%;
+      height: 80%;
+    }
+    .readMoreBtn {
+      background-color: var(--btn-color);
+    }
+    /* Chose destination */
+    .choseDestination {
+      margin-top: 380px;
+    }
+    .destinationDetails {
+      width: 100%;
+    }
+
+    .towImage {
+      display: grid;
+      grid-template-columns: 100%;
+      column-gap: 10px;
+      
+    }
+    .towImage img {
+      width: 100%;
+      height: 300px;
+    }
+    .maldivImage {
+      position: relative;
+    }
+    .destinationName {
+      position: absolute;
+      top: 40%;
+      left: 40%;
+      color: white;
+    }
+
+    /* 2nd line image */
+    .threeImg {
+      display: grid;
+      grid-template-columns: 100%;
+      column-gap: 10px;
+      margin-top: 0px;
+    }
+    .thirdLineImage {
+      display: grid;
+      grid-template-columns: 100%;
+      column-gap: 10px;
+      margin-top: 0px;
+    }
+    .thirdLineImage img {
+      width: 100%;
+      
     }
   }
-
+}
