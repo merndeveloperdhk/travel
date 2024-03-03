@@ -87,12 +87,13 @@ nav ul li a{
     align-items: center;
     background-color: #FF5400;
     border: none;
+    color: white;
 }
 /* Banner section end */
 
 
 /* responsive */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px ) {
     body {
         /* header */
         .head_logo img{
@@ -148,3 +149,4 @@ nav ul li a{
         }
     }
   }
+
