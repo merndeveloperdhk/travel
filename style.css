@@ -298,6 +298,20 @@ padding: 10px 15px;
   
 }
 /* Deals and discounts ends*/
+/* simple perfect */
+.simpleToursBody{
+  margin-top: 20px;
+}
+.simpleTitle{
+  width: 70%;
+  line-height: 40px;
+}
+.simpleLi{
+  font-weight: bold;
+}
+.simpleTorsImg{
+  height: 400px;
+}
 
 /* responsive */
 @media only screen and (max-width: 576px) {
@@ -353,6 +367,7 @@ padding: 10px 15px;
       justify-content: space-between;
       column-gap: 10px;
       height: 400px;
+      
     }
     .left {
       width: 100%;
