@@ -312,6 +312,76 @@ padding: 10px 15px;
 .simpleTorsImg{
   height: 400px;
 }
+/* NewsLetter */
+.newsLetterDiv{
+  display: flex;
+  column-gap: 10px;
+  justify-content: space-between;
+  
+}
+.leftNewsletter{
+  width: 40%;
+  border:1px solid #ff5400;
+  border-radius: 10px;
+  padding: 30px 50px;
+}
+.leftNewsletter p{
+  width: 60%;
+}
+.inputFile{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 20px;
+}
+.inputFile input{
+  padding: 5px;
+  border-radius: 5px;
+  
+  
+}
+.subsBtn{
+  background-color: var(--btn-color);
+padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: var(--btn-text-color);
+  display: inline-block;
+  margin: 0 auto;  
+display: block;
+width: 100%;
+}
+.rightNewsLetter{
+  width: 60%;
+  position: relative;
+
+}
+.rightNewsLetter img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.child{
+  width: 180px;
+  height: 80px;
+  background-color: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+  bottom: 50px;
+  transform: rotate(-30deg);
+  border-radius: 10px;
+}
+.child h3, h5{
+  margin: 6px 0;
+  color: white;
+}
+
 
 /* responsive */
 @media only screen and (max-width: 576px) {
@@ -487,7 +557,79 @@ padding: 10px;
   line-height: 20px;
   margin: 8px 0;
 }
+/* NewsLetter */
+.newsLetterDiv{
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+ 
+  
+}
+.leftNewsletter{
+  width: 95%;
+  border: 1px solid #ff5400;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 350px;
+  margin-bottom: 20px;
+}
+.leftNewsletter p{
+  width: 80%;
+}
+.inputFile{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 20px;
+}
+.inputFile input{
+  padding: 5px;
+  border-radius: 5px;
+  
+  
+}
+.subsBtn{
+  background-color: var(--btn-color);
+padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: var(--btn-text-color);
+  display: inline-block;
+  margin: 0 auto;  
+display: block;
+width: 100%;
+}
+.rightNewsLetter{
+  width: 100%;
+  position: relative;
+  
 
+}
+.rightNewsLetter img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+.child{
+  width: 180px;
+  height: 80px;
+  background-color: #ff5400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 25px;
+  bottom: 50px;
+  transform: rotate(-30deg);
+  border-radius: 10px;
+}
+.child h3, h5{
+  margin: 6px 0;
+  color: white;
+}
 
 
   }
