@@ -208,6 +208,97 @@ nav ul li a {
 }
 /* why chose ends*/
 
+/* Deals and discounts */
+.destination{
+  width: 100%;
+  margin: 0 auto;
+}
+.dealsDetails {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.destinationImageDiv{
+  width: 100%;
+  height: 400px;
+  background-image: url('./Images/Group\ 39.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  
+}
+.two{
+  background-image: url('./Images/Group\ 40.png');
+  margin-bottom: 10px;
+}
+.three{
+  background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+}
+
+.destinationCartbody{
+  width: 30%;
+  height: 250px;
+  border-radius: 10px;
+ background-color: rgba(199, 194, 194, 0.733);
+ position: absolute;
+ right: 30px;
+ top:50px;
+padding: 20px;
+}
+.secondDesCartBody{
+  left: 30px;
+ top:50px;
+}
+.icons{
+  display: flex;
+  gap: 15px;
+}
+.timing{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.timing i{
+  width: 20px;
+  color: #ff5400;
+}
+
+.toursTitle{
+  margin: 5px 0;
+}
+.toursPara{
+  line-height: 25px;
+}
+.buyNoweBtn{
+  background-color: var(--btn-color);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: var(--btn-text-color);
+  display: block;
+}
+.pricing{
+  color: #ff5400;
+  font-weight: bold;
+  margin: 8px 0;
+}
+.allPackBtn{
+background-color: var(--btn-color);
+padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  color: var(--btn-text-color);
+  display: inline-block;
+  margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
+  
+}
+/* Deals and discounts ends*/
+
 /* responsive */
 @media only screen and (max-width: 576px) {
   body {
@@ -319,9 +410,70 @@ nav ul li a {
       column-gap: 10px;
       margin-top: 0px;
     }
+    .thirdCard{
+     width: 100%;
+    }
     .thirdLineImage img {
       width: 100%;
       
     }
+    /* why choose */
+    .chooseCartsbody{
+      display: flex;
+      flex-direction: column;
+    }
+    .cardBody{
+      width: 100%;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    /* Deals and discounts */
+.dealsDetails {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+/* Deals and discounts ends*/
+/* destination */
+.destinationImageDiv{
+  width: 100%;
+  height: 400px;
+  background-image: url('./Images/Group\ 39.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  position: relative;
+}
+.destinationCartbody{
+  width: 80%;
+  height: 250px;
+  border-radius: 10px;
+ background-color: rgba(199, 194, 194, 0.699);
+ position: absolute;
+ left: 30px;
+ top: 110px;
+padding: 10px;
+}
+.icons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.timing{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.timing h4{
+  margin: 8px 0;
+}
+.toursPara{
+  line-height: 20px;
+  margin: 8px 0;
+}
+
+
+
   }
 }
