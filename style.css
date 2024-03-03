@@ -319,6 +319,7 @@ padding: 10px 15px;
 }
 .simpleTorsImg{
   height: 400px;
+  margin: 40px 0 20px 0;
 }
 /* NewsLetter */
 .newsLetterDiv{
@@ -441,6 +442,11 @@ footer p{
     }
     .banner_title h1 {
       font-size: 40px;
+    }
+    .banner_background {
+      width: 100%;
+      height: 450px;
+     
     }
     .selectOption {
       position: absolute;
