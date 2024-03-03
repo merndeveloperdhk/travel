@@ -33,6 +33,9 @@ nav ul li a {
   text-decoration: none;
   color: black;
 }
+nav ul li:hover a{
+  color: #ff5400;
+}
 .resDevice {
   display: none;
   width: 20px;
